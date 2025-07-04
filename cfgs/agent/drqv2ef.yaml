@@ -1,0 +1,15 @@
+defaults:
+  - common
+  - _self_
+
+agent:
+  _target_: agents.drqv2ef.DrQV2EfAgent
+  batch_size: ${batch_size}
+  context_steps: 3
+  requires_extended_obs: true
+  add_temporal_dim: true
+  hs_dim: 2048
+  ha_dim: 32
+  rec_loss_weight:  1.0
+  num_babbling_steps: 12500
+  horizon: 10
