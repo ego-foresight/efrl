@@ -28,3 +28,6 @@ Self-supervised Learning of Agent-Aware Representations for Improved RL
 ### Solving the task | Prediction given 3 context frames and trajectory that solves the task 
 
 <img src="./media/hammer_rgb.gif" width="150" height="150"/> <img src="./media/hammer_pred.gif" width="150" height="150"/>
+
+# Acknowledgements
+This research was supported by grants from NVIDIA and utilized NVIDIA RTX A6000 Ada graphics cards.
